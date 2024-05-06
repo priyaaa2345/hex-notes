@@ -43,5 +43,8 @@
 # tech.add("smart")    #it wont add ome more time.
 # print(tech)
 
-colors = ["red", "blue", "red", "green", "pink", "blue"]
-print(set(colors))
+# colors = ["red", "blue", "red", "green", "pink", "blue"]
+# color = set()
+# for i in colors:
+#     color.add(i)
+# print(color)
