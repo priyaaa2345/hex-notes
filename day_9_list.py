@@ -56,7 +56,7 @@ list=[1,2,3,4,44,55,33]
 # scram= ' world the save to time no is there'
 # scram1 = ' '.join(scram.split()[::-1])
 # print(scram1)
-
+ 
 
 # replacing values
 avatar=['fire','water','earth','air']
