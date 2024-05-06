@@ -47,9 +47,9 @@ list = [1, 2, 3, 4, 44, 55, 33]
 # print(shop1,shop1[1])
 
 
-# list- st:join
-avatar = ["ire", "water"]
-print(",".join(avatar))
+# # list- st:join
+# avatar = ["ire", "water"]
+# print(",".join(avatar))
 
 # ex
 
@@ -59,6 +59,15 @@ print(",".join(avatar))
 
 
 # replacing values
-avatar = ["fire", "water", "earth", "air"]
-avatar[1:3] = ["diamaond", "platinumm", "golf"]
-print(avatar)
+# avatar = ["fire", "water", "earth", "air"]
+# avatar[1:3] = ["diamaond", "platinumm", "golf"]
+# print(avatar)
+
+
+# TUPLE
+person = ("me", "she", "he")
+print(person[0])
+
+# methods available
+print(person.count("he"))
+print(person.index("me"))

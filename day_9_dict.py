@@ -9,23 +9,39 @@
 # print(person.values())  # gets only values
 
 
-books = [  # datatype: list in dict
-    {"title": "Infinite Jest", "rating": 4.5, "genre": "Fiction"},
-    {"title": "The Catcher in the Rye", "rating": 3.9, "genre": "Fiction"},
-    {"title": "Sapiens", "rating": 4.9, "genre": "History"},
-    {"title": "A Brief History of Time", "rating": 4.8, "genre": "Science"},
-    {"title": "Clean Code", "rating": 4.7, "genre": "Technology"},
-]
+# books = [  # datatype: list in dict
+#     {"title": "Infinite Jest", "rating": 4.5, "genre": "Fiction"},
+#     {"title": "The Catcher in the Rye", "rating": 3.9, "genre": "Fiction"},
+#     {"title": "Sapiens", "rating": 4.9, "genre": "History"},
+#     {"title": "A Brief History of Time", "rating": 4.8, "genre": "Science"},
+#     {"title": "Clean Code", "rating": 4.7, "genre": "Technology"},
+# ]
 
 
-# rating>4.7
-result = []
-for i in books:
-    if i["rating"] >= 4.7:
-        result.append(i["title"])
-print(result)
+# # rating>4.7
+# result = []
+# for i in books:
+#     if i["rating"] >= 4.7:
+#         result.append(i["title"])
+# print(result)
 
-# or
+# # or
 
-result = [i["title"] for i in books if i["rating"] >= 4.7]
-print(result)
+# result = [i["title"] for i in books if i["rating"] >= 4.7]
+# print(result)
+
+
+# ## SETS
+
+# tech = {"smart", "phone", "tab", "lap"}
+# empty_sets = set()
+# empt_dict = {}
+# print(type(empty_sets))
+# print(type(tech))
+
+# tech.add('charger')
+# tech.add("smart")    #it wont add ome more time.
+# print(tech)
+
+colors = ["red", "blue", "red", "green", "pink", "blue"]
+print(set(colors))
