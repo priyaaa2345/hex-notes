@@ -18,11 +18,47 @@ list=[1,2,3,4,44,55,33]
 
 # output.pop()                #to delete
 
-pri=[10,20,30]
-pri_copy=pri
-pric1=[10,20,30]
-pri_copy.append(600)
-pri.append(700)
-pric1.append(800)
+# pri=[10,20,30]
+# pri_copy=pri                 #they'll have the same memory address
+# pric1=[10,20,30]             #copy by reference
+# pri_copy.append(600)
+# pri.append(700)
+# pric1.append(800)
 
-print(pri,pri_copy,pric1)
+# print(pri,pri_copy,pric1)
+
+# p1=[3,4,5,2]
+# p2=p1.copy()                   #copy by value
+# print(p2)
+
+# p3=p1[:]                        # another method to copu
+
+# print(id(p1),id(p2),p3)            #to check 
+
+# h1=[22,3,4,5,44]
+# h1.remove(3)                  #remove
+# print(h1)
+
+# clo=['gold']*3
+# # print(clo)
+
+# shop='vanila,lime,choc'
+# shop1=shop.split(',')
+# print(shop1,shop1[1])
+
+
+# # list- st:join
+# avatar=['ire','water']
+# print(','.join(avatar))
+
+#ex
+
+# scram= ' world the save to time no is there'
+# scram1 = ' '.join(scram.split()[::-1])
+# print(scram1)
+
+
+# replacing values
+avatar=['fire','water','earth','air']
+avatar[1:3]=['diamaond','platinumm','golf']
+print(avatar)
