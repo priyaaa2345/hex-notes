@@ -1,4 +1,4 @@
-list=[1,2,3,4,44,55,33]
+list = [1, 2, 3, 4, 44, 55, 33]
 # print(len(list))
 # print(type(list))    #list
 # print(list[2])       #index
@@ -33,7 +33,7 @@ list=[1,2,3,4,44,55,33]
 
 # p3=p1[:]                        # another method to copu
 
-# print(id(p1),id(p2),p3)            #to check 
+# print(id(p1),id(p2),p3)            #to check
 
 # h1=[22,3,4,5,44]
 # h1.remove(3)                  #remove
@@ -47,18 +47,18 @@ list=[1,2,3,4,44,55,33]
 # print(shop1,shop1[1])
 
 
-# # list- st:join
-# avatar=['ire','water']
-# print(','.join(avatar))
+# list- st:join
+avatar = ["ire", "water"]
+print(",".join(avatar))
 
-#ex
+# ex
 
 # scram= ' world the save to time no is there'
 # scram1 = ' '.join(scram.split()[::-1])
 # print(scram1)
- 
+
 
 # replacing values
-avatar=['fire','water','earth','air']
-avatar[1:3]=['diamaond','platinumm','golf']
+avatar = ["fire", "water", "earth", "air"]
+avatar[1:3] = ["diamaond", "platinumm", "golf"]
 print(avatar)
