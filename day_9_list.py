@@ -35,9 +35,11 @@ list = [1, 2, 3, 4, 44, 55, 33]
 
 # print(id(p1),id(p2),p3)            #to check
 
-# h1=[22,3,4,5,44]
-# h1.remove(3)                  #remove
-# print(h1)
+# h1 = [22, 3, 4, 5, 44]
+# h1.remove(3)  # remove
+# # print(h1)
+# st = "i love python"
+# print(st[::3])
 
 # clo=['gold']*3
 # # print(clo)
@@ -71,3 +73,4 @@ print(person[0])
 # methods available
 print(person.count("he"))
 print(person.index("me"))
+print(len(person))  # len works becos we didtn modify the tuple

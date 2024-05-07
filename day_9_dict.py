@@ -34,8 +34,8 @@
 # ## SETS
 
 # tech = {"smart", "phone", "tab", "lap"}
-# empty_sets = set()
-# empt_dict = {}
+# empty_sets = set()   #if we want an empty set
+# empt_dict = {}        #datatype would be dict
 # print(type(empty_sets))
 # print(type(tech))
 
@@ -48,3 +48,27 @@
 # for i in colors:
 #     color.add(i)
 # print(color)
+
+# update to add multiple items
+# ad = {"me", "he", "she"}
+# addd = {"oh", "hi"}
+# ad.update(addd)
+# print(ad)
+
+
+# # discard wont error out
+# ad.discard("he")
+# print(ad)
+
+
+# working across sets --- union inter except
+
+out = {"hicking", "cycling", "swimming"}
+ind = {"gaming", "cycling", "reading"}
+
+print(out.union(ind))
+
+print(out.intersection(ind))
+
+print(out.difference(ind))
+print(out.symmetric_difference(ind))
