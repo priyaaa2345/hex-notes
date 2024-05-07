@@ -71,4 +71,5 @@ print(out.union(ind))
 print(out.intersection(ind))
 
 print(out.difference(ind))
+
 print(out.symmetric_difference(ind))
