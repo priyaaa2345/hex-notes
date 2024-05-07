@@ -23,28 +23,28 @@ quote = "Dream is not something that you see in sleep, Dream is something that d
 
 print(quote[0])
 # print(quote[0])='Y' error:immutable
-quote = 'cool'
+# quote = 'cool'
 
-print(quote.find('**'))
+print(quote.find("**"))
 
-print(quote.replace('Dream','is'))
+print(quote.replace("Dream", "is"))
 
-print(quote.replace('Dream','is'))
+print(quote.replace("Dream", "is"))
 print(quote)
 
 
 message = "    🚨🔍📱🔑secret_code✌️"
 code = "SECRET_CODE✌️"
 
-key_index=message.find('🔑')
+key_index = message.find("🔑")
 
-output=message[key_index+1:].upper().strip('*').upper()
+output = message[key_index + 1 :].upper().strip("*").upper()
 
-if(output==code):
-  print('you are an hacker')
+if output == code:
+    print("you are an hacker")
 else:
-  print('Try again')
+    print("Try again")
 
-#to remove junk
-message1="    🚨🔍📱🔑****secret_code✌️((("
-print(message1.strip('  🚨🔍📱🔑*(✌️'))
+# to remove junk
+message1 = "    🚨🔍📱🔑****secret_code✌️((("
+print(message1.strip("  🚨🔍📱🔑*(✌️"))
