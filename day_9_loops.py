@@ -5,12 +5,6 @@
 #     print(count)
 #     count = count + 1
 
-# tell=int(input('enter the num of stars u want'))
-# i=0
-# while i<tell:
-#     j=0
-#     while(j<tell):
-
 # n = int(input("enter the stars"))
 # i = 1
 # while i <= n:
@@ -24,9 +18,9 @@
 #     num = num - 1
 
 
-# n = int(input("enter"))
-# for i in range(1, n + 1):
-#     print("✨" * i)
+n = int(input("enter"))
+for i in range(1, n + 1):
+    print("✨" * i)
 
 
 # play = [10, 20, 30]

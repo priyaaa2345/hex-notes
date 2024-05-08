@@ -6,13 +6,13 @@
 
 
 # # matching  by index values #unpacking tuples
-# priya, bharath, swetha = ("butterscotch", "vanila", "blackcurent")
-# print(priya)
-# print(bharath)
-# print(swetha)
+priya, bharath, swetha = ("butterscotch", "vanila", "blackcurent")
+print(priya)
+print(bharath)
+print(swetha)
 
-# jeeva, priya, rathna = ["avan", "naan", "aval"]
-# print(jeeva, priya, rathna)
+jeeva, priya, rathna = ["avan", "naan", "aval"]
+print(jeeva, priya, rathna)
 
 # # or -- unpacking list
 
@@ -71,7 +71,7 @@
 # print(t1, t2, t4)
 
 # marks1 = [70, 80, 60]
-# # marks2 = [*marks1]   #to copy
+# marks2 = [*marks1]   #to copy
 # marks2 = [*marks1, 75, 68]  # to add values if wanted
 # marks3 = [100, 60, *marks2]
 # print(marks2)

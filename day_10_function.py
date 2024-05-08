@@ -1,7 +1,7 @@
 # def add(a, b):  # fn declaration / defn
 #     return a + b  # fn body
 
-# #a,b arguements 4,6 parameters
+# a,b paramaters 4,6 arguments
 # print("the sum is :", add(4, 6))  # fn call
 
 
@@ -13,7 +13,8 @@
 
 
 # print(driving("priya", 20, "toyota"))
-# print(driving("bharath", car="honda", age=20))
+# print(driving('rathna',18))
+# print(driving("bharath", car="honda", age=20))  #kw arguments shld be at last
 
 
 # ex
@@ -144,7 +145,7 @@ movies = [
 
 # def own_max(*maxx):      #arbitrary num of possitional arguuments
 #     max = maxx[0]
-#     for num in maxx:
+#     for num in maxx:  #datatype of max is tuple
 #         if num > max:
 #             max = num
 #     return max

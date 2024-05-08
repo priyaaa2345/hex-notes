@@ -1,9 +1,9 @@
-# person = {
-#     "name": "kim taehyung",
-#     "age": 25,
-#     "address": {"nation": "Korea", "city": "Seoul", "aim": "singer"},
-#     "stats": {"goals": 300, "assists": 500},
-# }
+person = {
+    "name": "kim taehyung",
+    "age": 25,
+    "address": {"nation": "Korea", "city": "Seoul", "aim": "singer"},
+    "stats": {"goals": 300, "assists": 500},
+}
 # print(person["address"]["city"])  # accessing nested keys
 
 # # #these both works

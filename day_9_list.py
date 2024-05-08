@@ -27,13 +27,13 @@ list = [1, 2, 3, 4, 44, 55, 33]
 
 # print(pri,pri_copy,pric1)
 
-# p1=[3,4,5,2]
-# p2=p1.copy()                   #copy by value
+# p1 = [3, 4, 5, 2]
+# p2 = p1.copy()  # copy by value
 # print(p2)
 
-# p3=p1[:]                        # another method to copu
+# p3 = p1[:]  # another method to copy
 
-# print(id(p1),id(p2),p3)            #to check
+# print(id(p1), id(p2), p3)  # to check
 
 # h1 = [22, 3, 4, 5, 44]
 # h1.remove(3)  # remove
@@ -41,8 +41,8 @@ list = [1, 2, 3, 4, 44, 55, 33]
 # st = "i love python"
 # print(st[::3])
 
-# clo=['gold']*3
-# # print(clo)
+# clo = ["gold"] * 3
+# print(clo)
 
 # shop='vanila,lime,choc'
 # shop1=shop.split(',')
@@ -53,10 +53,10 @@ list = [1, 2, 3, 4, 44, 55, 33]
 # avatar = ["ire", "water"]
 # print(",".join(avatar))
 
-# ex
+# # ex
 
-# scram= ' world the save to time no is there'
-# scram1 = ' '.join(scram.split()[::-1])
+# scram = " world the save to time no is there"
+# scram1 = " ".join(scram.split()[::-1])
 # print(scram1)
 
 
@@ -66,11 +66,42 @@ list = [1, 2, 3, 4, 44, 55, 33]
 # print(avatar)
 
 
-# TUPLE
-person = ("me", "she", "he")
-print(person[0])
+# # TUPLE
+# person = ("me", "she", "he")
+# print(person[0])
 
-# methods available
-print(person.count("he"))
-print(person.index("me"))
-print(len(person))  # len works becos we didtn modify the tuple
+# # methods available
+# print(person.count("he"))
+# print(person.index("me"))
+# print(len(person))  # len works becos we didtn modify the tuple
+
+
+# fah  to celsi problem (day8)
+
+# fah = input("enter the fah")
+
+# cel = (float(fah) - 32) * 5 / 9
+# print(f"the equivalent of {fah} to ceslsius is {cel}")
+
+
+# build a loader
+
+# load = int(input("enter loader weight"))
+
+# loader = load // 10
+# l = "{" + "=" * loader + " " * (10 - loader) + "}"
+# print(l)
+
+
+# count stars(day 9 loops)
+
+# star = int(input("enter num"))
+# for i in range(1, star + 1):
+#     print("✨" * i)
+
+
+# scram = " world the save to time no is there"
+# sc = scram.split(" ")[::-1]
+# scc = " ".join(sc)
+
+# print(scc)
