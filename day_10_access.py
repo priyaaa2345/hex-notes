@@ -17,7 +17,7 @@
 #     def run(self):
 #         return "wags tail"
 
-#     def speak(self):  # polymorphism(changes form) : method overriding
+#     def speak(self):  # polymorphism(changes form) : method overriding . we can access using the instance
 #         return "woof woof"  # here the return statmetns changes as per use
 
 #     def speed_bonus(self):
@@ -113,6 +113,8 @@
 
 
 # magic methods
+# user should not directly use str
+# internak use only for developers
 
 
 class Cat:
@@ -135,8 +137,7 @@ class Cat:
 
 
 x = [5, 67, 6]
-print(dir(x))
-
+print(dir(x))  # to get dunder methods
 
 pichu = Cat("pichu", 30)
 print(pichu)
