@@ -6,6 +6,9 @@
 from day_10_cool import to_upper_case
 
 print(to_upper_case("rath"))
+
+# to import from folder:
+# from foldername.day_10_cool impport
 # alias
 from math import pi as PI, sqrt, cos
 

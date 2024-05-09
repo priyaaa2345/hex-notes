@@ -16,31 +16,42 @@ from datetime import datetime
 # print(datetime.now())
 
 
-# # calculate age
+# calculate age
+# #my code
 # def Calculate_age(year):
 #     try:
 #         if 2024 > year:
 #             age = 2024 - year
-
-#     except ValueError:
-#         print("year should be int")
-#     else:
-#         print("birth year cant be greater than 2024")
-
-#     print(f"your age is {age}")
+#             return age
+#         else:
+#             print("birth year cant be greater than 2024")
+#     except ValueError as e:
+#         print("year should be int", e)
 
 
 # year = int(input("enter your year of birth"))
-# Calculate_age(year)
+# age = Calculate_age(year)
+# # print(f"your age is {age}")
 
 
-# def Calculate_age():
-#     try:
-#         birth_year = input("Please provide your birth year: ")
-#         age = datetime.now().year - int(birth_year)
-#         print(f"Your age is {age}")
-#     except:
-#         print("oops Error occurred try again and enter correctly")
+def calculate_age():
+    try:
+        current = datetime.now().year
+        birth = int(input("enter your year"))
+        if birth > current:
+            print(f"are u from future")
+        elif birth <= 0:
+            print("no negative values are accepted")
+        else:
+            age = current - birth
+            print(f"your age is {age}")
+
+    except ValueError as err:
+        print("invalid number", err)
+    except Exception as err:
+        print("this catches all !", err)
+    finally:
+        print("operation successful")
 
 
-# Calculate_age()
+calculate_age()
